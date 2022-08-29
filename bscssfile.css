@@ -13,11 +13,11 @@
 }
 .usercard{
   margin-left: -6rem;
-  width: 22rem;
-  padding: 3.4rem;
+  width: auto;
+  /* padding: 3.4rem; */
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 0.25rem;
-  height: 30rem;
+  height: auto;
   background: white;
 
 /* margin: 1.4rem;
@@ -25,19 +25,19 @@ height: 20rem; */
     
 }
 .card-img-top {
-     /* display: flex;  */
+     display: block; 
     /* justify-content: center; */ 
     
         /* display: flex; */
     /* justify-content: center; */
     /* align-self: center; */
-    margin: 4rem;
-    /* padding-left: 1rem; */
-    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    width: 51%;
     /* border-top-left-radius: calc(10.25rem - 1px); */
     /* border-top-right-radius: calc(8.25rem - 1px); */
-    margin-top: -1rem;
-    margin-bottom: 0rem;
+    /* margin-top: -1rem;
+    margin-bottom: 0rem; */
   }
    .card-title{
     text-align: center;
@@ -49,10 +49,12 @@ height: 20rem; */
     display: flex;
     margin-right: 20px;
     margin-left: 102px;
+    margin-top: 1rem;
   }
   .socialmedia{
     display: flex;
     flex-direction: row;
+    /* justify-content: center; */
   }
   #sc{
     height: 1.3rem;
@@ -87,9 +89,28 @@ margin-top: 3px;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
     /* max-width: max-content; */
-    width: 70rem;
-    margin-left: 2rem;
+    width: auto;
+    /* margin-left: 2rem; */
+    margin-left: 0rem;
   }
   h4{
     margin-bottom: -0.5rem;
+    /* display: flex;
+    flex-direction: column; */
+    
+  }
+  @media(max-width:768px){
+    .row{
+      /* margin-right: -6rem; */
+    }
+    .card{
+    margin-left:-6rem;
+    }
+  }
+  .tableofsc{
+    
+      display: flex;
+      justify-content: center;
+      margin-right: 2rem;
+    
   }
